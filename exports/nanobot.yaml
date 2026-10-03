@@ -1,4 +1,0 @@
-spec: nanobot/v1
-name: crispr-off-target-cleavage-predictor
-runtime: python3.11
-entrypoint: agent.py

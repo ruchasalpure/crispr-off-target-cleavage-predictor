@@ -1,8 +1,0 @@
-{
-  "agent_id": "crispr-off-target-cleavage-predictor",
-  "protocol": "opencode/v1",
-  "capabilities": [
-    "autonomous",
-    "governed"
-  ]
-}

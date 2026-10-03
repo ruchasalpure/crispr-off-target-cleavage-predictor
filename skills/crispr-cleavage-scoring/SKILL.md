@@ -1,17 +1,25 @@
 ---
-name: "crispr-cleavage-scoring"
-description: "Evaluates protospacer adjacent motif (PAM) fidelity and position-weighted mismatch tolerance curves against reference genome assemblies"
-version: "1.0.0"
-category: "healthcare"
+name: crispr-cleavage-scoring
+description: Specialized capability for Crispr Off Target Cleavage Predictor.
+license: MIT
+allowed-tools: ""
+metadata:
+  author: "Rucha Salpure"
+  version: "1.0.0"
+  category: healthcare
 ---
 
-# Skill: crispr-cleavage-scoring
+# Crispr Off Target Cleavage Predictor — CRISPR CLEAVAGE SCORING Skill
 
-## Overview
-Evaluates protospacer adjacent motif (PAM) fidelity and position-weighted mismatch tolerance curves against reference genome assemblies.
+## Purpose
+The `crispr-cleavage-scoring` capability provides high-assurance execution routines for `Crispr Off Target Cleavage Predictor`.
 
-## Execution Steps
-1. Parse and validate runtime parameters against the formal domain schema.
-2. Execute core computational and heuristic analysis pipeline.
-3. Format structured observations for Maker-Checker dual control review.
-4. Log all telemetry and performance metrics to the governance ledger.
+## Execution Workflow
+1. Validate input parameters against typed schemas and invariant constraints.
+2. Ingest contextual metrics and establish a deterministic baseline.
+3. Formulate candidate recommendations with explicit confidence intervals.
+4. Submit draft plans to the independent checker agent for verification.
+
+## Boundary Conditions
+- **Input validation:** Reject non-conforming or malformed payloads before evaluation.
+- **Fail-safe:** Escalate immediately if telemetry indicators exhibit critical anomalies.
