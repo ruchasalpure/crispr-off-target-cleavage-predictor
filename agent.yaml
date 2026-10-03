@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "crispr-off-target-cleavage-predictor"
+version: "1.0.0"
+category: "healthcare"
+author: "Rucha Salpure"
+description: "Predicts non-specific Cas9/Cas12a genome-wide off-target cleavage sites using paired mismatch-bulge scoring matrices and epigenetic chromatin accessibility priors"
+capabilities:
+  - "crispr-cleavage-scoring"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "crispr-cleavage-scoring"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

@@ -1,0 +1,5 @@
+{
+  "name": "crispr-off-target-cleavage-predictor",
+  "service": "aws-kiro",
+  "version": "1.0.0"
+}

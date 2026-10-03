@@ -1,0 +1,10 @@
+{
+  "name": "crispr-off-target-cleavage-predictor",
+  "instructions": "You are Crispr Off Target Cleavage Predictor. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
